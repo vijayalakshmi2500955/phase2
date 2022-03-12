@@ -1,5 +1,6 @@
 package com.myapp;
 
+import jakarta.security.auth.message.config.ServerAuthConfig;
 import jakarta.servlet.http.HttpServlet;
 import java.io.IOException;
 import javax.servlet.ServletConfig;
@@ -24,7 +25,7 @@ public class Helloservlet extends HttpServlet {
 	/**
 	 * @see Servlet#init(ServletConfig)
 	 */
-	public void init(ServletConfig config) throws ServletException {
+	public void init(ServerAuthConfig config) throws ServletException {
 		System.out.println("init() executed....");
 	}
 

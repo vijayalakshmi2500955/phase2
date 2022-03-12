@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="5.0">
+  <display-name>ScopeVariables</display-name>
+  <welcome-file-list>
+    <welcome-file>product.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>PaymentServlet</display-name>
+    <servlet-name>PaymentServlet</servlet-name>
+    <servlet-class>com.simpli.PaymentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PaymentServlet</servlet-name>
+    <url-pattern>/PaymentServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
