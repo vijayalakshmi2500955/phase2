@@ -667,3 +667,5 @@ java.net.URISyntaxException: Illegal character in path at index 18: file:/C:/Use
 2022-03-15 10:31:21,459 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-03-15 10:31:21,460 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SAI BHARGAV\phase2\jdbc\src\main\resources
 2022-03-15 10:31:21,463 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-15 10:31:21,464 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SAI BHARGAV\phase2\jdbc\src\test\resources
+2022-03-16 09:26:30,305 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
