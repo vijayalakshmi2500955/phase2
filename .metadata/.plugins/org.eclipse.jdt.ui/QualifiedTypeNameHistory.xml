@@ -5,4 +5,7 @@
     <fullyQualifiedTypeName name="jakarta.servlet.http.HttpSession"/>
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
     <fullyQualifiedTypeName name="jakarta.servlet.http.Cookie"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.jdbc.CallableStatement"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
 </qualifiedTypeNameHistroy>
